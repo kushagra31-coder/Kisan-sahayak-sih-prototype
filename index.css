@@ -1,0 +1,97 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap');
+
+@layer base {
+  :root {
+    --background: 85 30% 96%;
+    --foreground: 120 25% 12%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 120 25% 12%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 120 25% 12%;
+
+    --primary: 142 52% 36%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 43 96% 56%;
+    --secondary-foreground: 30 60% 12%;
+
+    --muted: 90 20% 90%;
+    --muted-foreground: 120 10% 40%;
+
+    --accent: 43 96% 56%;
+    --accent-foreground: 30 60% 12%;
+
+    --destructive: 0 72% 51%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 120 15% 82%;
+    --input: 120 15% 82%;
+    --ring: 142 52% 36%;
+
+    --radius: 1rem;
+
+    --chat-user: 142 52% 36%;
+    --chat-user-foreground: 0 0% 100%;
+    --chat-bot: 85 25% 92%;
+    --chat-bot-foreground: 120 25% 12%;
+
+    --sidebar-background: 0 0% 98%;
+    --sidebar-foreground: 240 5.3% 26.1%;
+    --sidebar-primary: 240 5.9% 10%;
+    --sidebar-primary-foreground: 0 0% 98%;
+    --sidebar-accent: 240 4.8% 95.9%;
+    --sidebar-accent-foreground: 240 5.9% 10%;
+    --sidebar-border: 220 13% 91%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  .dark {
+    --background: 120 15% 8%;
+    --foreground: 85 20% 92%;
+    --card: 120 15% 12%;
+    --card-foreground: 85 20% 92%;
+    --popover: 120 15% 12%;
+    --popover-foreground: 85 20% 92%;
+    --primary: 142 52% 42%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 43 80% 50%;
+    --secondary-foreground: 30 60% 12%;
+    --muted: 120 10% 18%;
+    --muted-foreground: 85 15% 60%;
+    --accent: 43 80% 50%;
+    --accent-foreground: 30 60% 12%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 120 10% 22%;
+    --input: 120 10% 22%;
+    --ring: 142 52% 42%;
+    --chat-user: 142 52% 32%;
+    --chat-user-foreground: 0 0% 100%;
+    --chat-bot: 120 10% 18%;
+    --chat-bot-foreground: 85 20% 90%;
+    --sidebar-background: 240 5.9% 10%;
+    --sidebar-foreground: 240 4.8% 95.9%;
+    --sidebar-primary: 224.3 76.3% 48%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 240 3.7% 15.9%;
+    --sidebar-accent-foreground: 240 4.8% 95.9%;
+    --sidebar-border: 240 3.7% 15.9%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+    font-family: 'Nunito', sans-serif;
+  }
+}
