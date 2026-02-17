@@ -1,30 +1,29 @@
-# Kisan Sahayak Chatbot 🌾
+ Kisan Sahayak Chatbot 🌾
 
 Smart India Hackathon (SIH) prototype built to address agriculture support challenges using AI-powered chatbot interaction.
 
-## 🎯 Problem Context
+🎯 Problem Context
 
 This project was developed as a prototype solution for a Smart India Hackathon problem statement focused on improving farmer access to agricultural guidance and support.
 
-## 🚀 Features
+🚀 Features
 
 - Interactive chatbot interface
 - Agriculture-focused guidance flow
 - Clean and responsive UI
 - Modular React architecture
 
-## 🛠 Tech Stack
+🛠 Tech Stack
 
 - React
 - TypeScript
 - Vite
 - Tailwind CSS
 
-## 🧠 Architecture Overview
-
+🧠 Architecture Overview
 Frontend-only prototype demonstrating AI integration patterns. Designed to be extended with secure backend API handling for production deployment.
 
-## 📦 Local Setup
+📦 Local Setup
 
 ```bash
 git clone https://github.com/your-username/kisan-sahayak-sih-prototype.git
