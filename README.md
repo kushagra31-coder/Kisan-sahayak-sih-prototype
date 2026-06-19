@@ -1,16 +1,144 @@
-# React + Vite
+🌾 Kisan Sahayak AI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An intelligent multilingual agriculture assistant designed to support farmers with crop guidance, weather information, fertilizer recommendations, pest management, and government scheme awareness.
 
-Currently, two official plugins are available:
+Developed as a Smart India Hackathon (SIH) prototype to bridge the information gap between farmers and agricultural resources through an easy-to-use conversational interface.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+🚀 Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- 🌱 Crop advisory and farming guidance
+- 🌦 Weather-based recommendations
+- 🧪 Fertilizer and soil management suggestions
+- 🐛 Pest and disease awareness
+- 🏛 Government scheme information
+- 🌐 Multilingual support (Hindi, English, Marathi)
+- 🎤 Voice interaction support (planned)
+- 📱 Responsive mobile-friendly interface
+- 🤖 AI-ready architecture for future integrations
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🛠 Tech Stack
+
+Frontend
+
+- React
+- TypeScript
+- Vite
+- Tailwind CSS
+
+Planned Backend
+
+- Rasa Open Source
+- Python
+- REST APIs
+
+Future Integrations
+
+- Weather APIs
+- Market Price APIs
+- Agriculture Knowledge Base
+- Speech Recognition
+- Text-to-Speech
+
+---
+
+🏗 Architecture
+
+Farmer
+   │
+   ▼
+React Frontend
+   │
+   ▼
+Chat Interface
+   │
+   ▼
+Rasa NLU Engine
+   │
+   ├── Crop Advisory
+   ├── Weather Service
+   ├── Fertilizer Guidance
+   ├── Pest Management
+   └── Government Schemes
+
+---
+
+📂 Project Structure
+
+src/
+├── components/
+├── hooks/
+├── languages.ts
+├── bot-responses.ts
+├── use-chatbot.ts
+├── App.tsx
+└── index.css
+
+---
+
+🎯 Problem Statement
+
+Farmers often face challenges accessing reliable agricultural information due to language barriers, limited internet literacy, and lack of centralized support systems.
+
+Kisan Sahayak AI aims to provide:
+
+- Timely agricultural guidance
+- Localized recommendations
+- Easy-to-understand conversations
+- Support in regional languages
+
+---
+
+📦 Installation
+
+Clone the repository:
+
+git clone https://github.com/kushagra31-coder/Kisan-sahayak-sih-prototype.git
+cd Kisan-sahayak-sih-prototype
+
+Install dependencies:
+
+npm install
+
+Run the development server:
+
+npm run dev
+
+Build for production:
+
+npm run build
+
+---
+
+🔮 Future Enhancements
+
+- Rasa-powered conversational AI
+- Voice-based farmer interaction
+- Crop disease detection using images
+- Live weather forecasting
+- Mandi price tracking
+- Personalized farmer profiles
+- Offline support for rural areas
+- Agriculture document search (RAG)
+
+---
+
+👨‍💻 Contributors
+
+- Kushagra Singh Tomar
+- Bhagyesh Jain
+
+---
+
+📄 License
+
+This project is licensed under the MIT License.
+
+---
+
+Smart India Hackathon Prototype
+
+Building technology-driven solutions for Indian agriculture and empowering farmers through accessible digital assistance.
