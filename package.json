@@ -1,22 +1,9 @@
 {
-  "name": "my-farmer-app",
-  "version": "1.0.0",
-  "private": true,
-  "type": "module",
   "scripts": {
-    "dev": "vite",
+    "dev": "concurrently \"npm run dev:server\" \"npm run dev:vite\"",
+    "dev:vite": "vite",
+    "dev:server": "nodemon mock-server.cjs",
     "build": "vite build",
-    "preview": "vite preview",
-    "start": "vite",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "dependencies": {
-    "express": "^5.2.1",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
-  },
-  "devDependencies": {
-    "@vitejs/plugin-react": "^6.0.2",
-    "vite": "^8.0.16"
+    "preview": "vite preview"
   }
 }
